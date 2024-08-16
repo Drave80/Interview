@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <div>
+      <div class="navigation">
+        <ul>
+          <li class="list active">
+            <nav>
+              <span class="icon" onclick="currentSlide(1)"
+                ><ion-icon name="person-outline"></ion-icon
+              ></span>
+              <span class="text">ABOUT</span>
+            </nav>
+          </li>
+
+          <li class="list">
+            <nav>
+              <span class="icon" onclick="currentSlide(2)"
+                ><ion-icon name="file-tray-full-outline"></ion-icon
+              ></span>
+              <span class="text">PROJECT</span>
+            </nav>
+          </li>
+
+          <li class="list">
+            <nav>
+              <span class="icon" onclick="currentSlide(3)"
+                ><ion-icon name="basketball-outline"></ion-icon
+              ></span>
+              <span class="text">IDOL</span>
+            </nav>
+          </li>
+
+          <li class="list">
+            <nav>
+              <span class="icon" onclick="currentSlide(4)"
+                ><ion-icon name="paw-outline"></ion-icon
+              ></span>
+              <span class="text">Favourites</span>
+            </nav>
+          </li>
+          <div class="indicator"></div>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="slide fade">
+        <div class="slide-content">
+          <h2>ABOUT</h2>
+          <div class="info">
+            <div class="box">
+              <nav>
+                <table>
+                  <th><h3>Information</h3></th>
+                  <tr>
+                    <td><h4>Full name:</h4></td>
+                    <td><p>Huỳnh Vĩ Trung</p></td>
+                  </tr>
+                  <tr>
+                    <td><h4>Age:</h4></td>
+                    <td><p>20 tuổi</p></td>
+                  </tr>
+                  <tr>
+                    <td><h4>Phone number:</h4></td>
+                    <td><p>0123 456 789</p></td>
+                  </tr>
+                  <tr>
+                    <td><h4>E-mail:</h4></td>
+                    <td><p>drave@gmail.com</p></td>
+                  </tr>
+                  <th><h3>Education</h3></th>
+                  <tr>
+                    <td><h4>University:</h4></td>
+                    <td><p>Nguyễn Tất Thành</p></td>
+                  </tr>
+                  <tr>
+                    <td><h4>Major:</h4></td>
+                    <td><p>Công nghệ thông tin (IT)</p></td>
+                  </tr>
+                  <tr>
+                    <td><h4>School year:</h4></td>
+                    <td><p>2022-2026</p></td>
+                  </tr>
+                  <tr>
+                    <td><h4>Department:</h4></td>
+                    <td><p>Viện đạo tạo quốc tế NIIE</p></td>
+                  </tr>
+                </table>
+              </nav>
+            </div>
+            <div class="box">
+              <nav><img src="images/person.jpg" /></nav>
+            </div>
+            <div class="box">
+              <h3>Skills</h3>
+              <h4>Programming Languages</h4>
+              <p>C++: Thông thạo</p>
+              <p>Python: Thông thạo</p>
+              <p>JavaScript: Trung bình</p>
+              <h4>Tools & Development Environment</h4>
+              <p>
+                Git: Sử dụng để quản lý mã nguồn trong các dự án nhóm và cá nhân
+              </p>
+              <p>Visual Studio Code: Môi trường phát triển chính</p>
+              <h4>Databases</h4>
+              <p>
+                SQL Server: Đã làm việc với cơ sở dữ liệu trong các dự án học
+                tập
+              </p>
+            </div>
+            <div class="box">
+              <br />
+              <h4>Problem-Solving Skills</h4>
+              <p>
+                Kinh nghiệm giải quyết các bài toán thuật toán trong quá trình
+                học, như sử dụng các cấu trúc dữ liệu và thuật toán cơ bản
+              </p>
+              <h4>Soft Skills</h4>
+              <p>
+                Làm việc nhóm: Đã tham gia vào nhiều dự án nhóm trong suốt quá
+                trình học
+              </p>
+              <p>
+                Giao tiếp: Kỹ năng thuyết trình và giao tiếp tốt, đã từng thuyết
+                trình về các dự án học tập
+              </p>
+              <p>
+                Học hỏi: Luôn sẵn sàng học hỏi các thuật toán và tiếp thu công
+                nghệ mới
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide fade">
+        <div class="slide-content">
+          <h2>PROJECT</h2>
+          <div class="project">
+            <nav>
+              <img src="images/project1.png" />
+              <h3>Phần mềm quản lý vận chuyển</h3>
+              <p>
+                Phần mềm giúp các doanh nghiệp dễ dàng quản lý các phòng ban,
+                nhân viên, chức năng và dịch vụ, thống kê và tính toán các số
+                liệu cũng như chi phí để tối ưu hóa môi hình của các doanh
+                nghiệp
+              </p>
+              <h4>Đề án môn Lập trình nâng cao</h4>
+            </nav>
+
+            <nav>
+              <img src="images/project2.png" />
+              <h3>Phần mềm quản lý nhân viên</h3>
+              <p>
+                Phần mềm giúp các doanh nghiệp dễ dàng quản lý các nhân viên, để
+                tối ưu hóa việc quản lý nhân viên phầm mềm hỗ trợ tìm kiếm, sắp
+                xếp, thêm và xóa nhân viên
+              </p>
+              <h4>Đề án môn Cấu trúc dữ liệu và giải thuật</h4>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide fade">
+        <div class="slide-content bg">
+          <div class="idol">
+            <h2>IDOL</h2>
+            <nav class="idol1">
+              <h3>Stephen Curry</h3>
+              <img src="images/idol1.PNG" />
+            </nav>
+            <nav class="idol2">
+              <img src="images/idol2.PNG" />
+            </nav>
+            <nav class="idol3"><img src="images/idol3.PNG" /></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide fade">
+        <div class="slide-content">
+          <h2>Favorite animals</h2>
+          <div class="favourites">
+            <nav>
+              <h2>Capybara</h2>
+              <img src="images/fv1.PNG" />
+              <img src="images/fv2.PNG" />
+            </nav>
+            <nav><h2>Panda</h2></nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="images/panda4.png" class="image active" />
+      <img src="images/panda.png" class="image" />
+      <img src="images/panda2.png" class="image" />
+      <img src="images/panda3.png" class="image " />
+    </div>
+
+    <script src="test.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
